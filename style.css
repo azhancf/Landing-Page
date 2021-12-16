@@ -1,0 +1,86 @@
+/*
+element styling for main page
+TODO:
+    - change text boldness
+    - fix font family roboto
+    - section 1 not taking up white space on right
+ */
+
+
+/* fonts */
+@font-face {
+    font-family: 'roboto';
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+/* content types */
+body {
+    display: flex;
+    flex-flow: column;
+    margin: 0;
+    padding: 0;
+}
+
+h1, p, button, .header-link, .header-logo {
+    font-family: 'roboto';
+}
+
+h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+p, .header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+/* sections */
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+    padding: 30px 100px;
+    justify-content: space-between;
+}
+
+.section1 {
+    background-color: #1F2937;
+    display: flex;
+    width: 750px;
+    gap: 30px;
+    padding: 100px;
+    
+}
+
+/* styles */
+.header-links {
+    display: flex;
+    gap: 30px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.text {
+    width: 600px;
+}
+
+.main-image {
+    width: 300px;
+}
+
