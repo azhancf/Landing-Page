@@ -21,7 +21,7 @@ body {
     padding: 0;
 }
 
-h1, p, button, .header-link, .header-logo {
+h1, h2, p, button, .header-link, .header-logo {
     font-family: 'roboto';
 }
 
@@ -30,9 +30,9 @@ h1 {
     color: #F9FAF8;
 }
 
-p, .header-link {
-    font-size: 18px;
-    color: #E5E7EB;
+h2 {
+    font-size: 36px;
+    color: #1F2937;
 }
 
 button {
@@ -47,14 +47,18 @@ button {
     font-size: 15px;
 }
 
-/* sections */
-
-.header {
+header {
     display: flex;
     background-color: #1F2937;
     padding: 30px 100px;
     justify-content: space-between;
 }
+
+footer {
+    background-color: #1F2937;
+}
+
+/* sections */
 
 .section1 {
     background-color: #1F2937;
@@ -63,6 +67,11 @@ button {
     gap: 30px;
     padding: 100px;
     
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
 }
 
 /* styles */
@@ -84,3 +93,12 @@ button {
     width: 300px;
 }
 
+.section1 p, .header-link {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section3 p {
+    font-size: 36px;
+    color: #1F2937;
+}
