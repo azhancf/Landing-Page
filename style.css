@@ -1,9 +1,8 @@
 /*
 element styling for main page
 TODO:
-    - change text boldness
-    - fix font family roboto
-    - section 1 not taking up white space on right
+    - change text boldness?
+    - make text justified in box subtext
  */
 
 
@@ -63,18 +62,21 @@ footer {
 .section1 {
     background-color: #1F2937;
     display: flex;
-    width: 750px;
     gap: 30px;
     padding: 100px;
-    
-}
-
-.section2 {
-    display: flex;
     justify-content: center;
 }
 
+.section2 {
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
 /* styles */
+
+/* text */
 .header-links {
     display: flex;
     gap: 30px;
@@ -83,14 +85,19 @@ footer {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 600;
 }
 
 .text {
     width: 600px;
 }
 
-.main-image {
-    width: 300px;
+.text h1 {
+    font-weight: 1000;
+}
+
+.text p {
+    font-weight: 100;
 }
 
 .section1 p, .header-link {
@@ -98,7 +105,45 @@ footer {
     color: #E5E7EB;
 }
 
+.section2 h2 {
+    font-weight: 1000;
+}
+
 .section3 p {
     font-size: 36px;
     color: #1F2937;
+}
+
+.subtext {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* other */
+.box {
+    border-style: solid;
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    color: #3882F6;
+    border-width: 4px;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.info-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.main-image {
+    width: 300px;
+    height: auto;
 }
