@@ -75,10 +75,10 @@ footer {
 
 .section3 {
     background-color: #E5E7EB;
-    padding: 150px 800px;
+    padding: 150px 100px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
 /* header */
@@ -121,10 +121,18 @@ footer {
 }
 
 /* section 3 */
+.section3 .container {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    width: 900px;
+}
+
 .section3 p {
     font-size: 36px;
     color: #1F2937;
     font-style: italic;
+    font-weight: 100;
 }
 
 .section3 div {
