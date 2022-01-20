@@ -81,6 +81,13 @@ footer {
     align-items: center;
 }
 
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+}
+
 /* header */
 .header-links {
     display: flex;
@@ -142,6 +149,10 @@ footer {
 }
 
 /* section 4 */
+.call-to-action {
+    background-color: #3882F6;
+    padding: 100px 100px;
+}
 /* footer */
 
 
