@@ -3,6 +3,9 @@ element styling for main page
 TODO:
     - change text boldness?
     - make text justified in box subtext
+    - italic text
+    - make quote closer to thor part
+
  */
 
 
@@ -18,9 +21,6 @@ body {
     flex-flow: column;
     margin: 0;
     padding: 0;
-}
-
-h1, h2, p, button, .header-link, .header-logo {
     font-family: 'roboto';
 }
 
@@ -70,13 +70,18 @@ footer {
 .section2 {
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 120px;
 }
 
+.section3 {
+    background-color: #E5E7EB;
+    padding: 150px 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
-
-/* styles */
-
-/* text */
+/* header */
 .header-links {
     display: flex;
     gap: 30px;
@@ -88,6 +93,7 @@ footer {
     font-weight: 600;
 }
 
+/* section 1 */
 .text {
     width: 600px;
 }
@@ -105,19 +111,32 @@ footer {
     color: #E5E7EB;
 }
 
+/* section 2 */
 .section2 h2 {
     font-weight: 1000;
 }
-
-.section3 p {
-    font-size: 36px;
-    color: #1F2937;
-}
-
 .subtext {
     text-align: center;
     font-size: 18px;
 }
+
+/* section 3 */
+.section3 p {
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.section3 div {
+    align-self: flex-end;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* section 4 */
+/* footer */
+
+
 
 /* other */
 .box {
