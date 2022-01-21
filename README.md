@@ -1,2 +1,2 @@
 # Landing-Page
-This is a web page from a design in The Odin Project.
+This is a web page for a landing page. From the Odin Project
