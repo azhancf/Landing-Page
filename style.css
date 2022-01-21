@@ -1,11 +1,13 @@
 /*
 element styling for main page
 TODO:
-    - change text boldness?
+    - change text boldness? bold  or less bold
     - make text justified in box subtext
     - italic text
     - make quote closer to thor part
-
+    - fix the button it's too goddamn annoying
+    - text in section 4 isn't close together for some reason
+    - right proportions (but optional)
  */
 
 
@@ -34,18 +36,6 @@ h2 {
     color: #1F2937;
 }
 
-button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px 40px;
-    border-radius: 10px;
-    border: none;
-    font-size: 15px;
-}
-
 header {
     display: flex;
     background-color: #1F2937;
@@ -55,6 +45,10 @@ header {
 
 footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
 }
 
 /* sections */
@@ -85,7 +79,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 100px 0px;
+    padding: 125px 0px;
 }
 
 /* header */
@@ -118,10 +112,24 @@ footer {
     color: #E5E7EB;
 }
 
+.section1 button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
 /* section 2 */
 .section2 h2 {
     font-weight: 1000;
 }
+
 .subtext {
     text-align: center;
     font-size: 18px;
@@ -151,10 +159,23 @@ footer {
 /* section 4 */
 .call-to-action {
     background-color: #3882F6;
-    padding: 100px 100px;
+    padding: 50px 100px;
+    color:#E5E7EB;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
 }
-/* footer */
 
+.call-to-action button {
+    align-self: center;
+    background-color: #3882F6;
+    border-color:#E5E7EB;
+}
+
+/* footer */
+footer div {
+    color:#E5E7EB;
+}
 
 
 /* other */
