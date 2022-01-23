@@ -1,7 +1,6 @@
 /*
 element styling for main page
 TODO:
-    - custom made to unflushable studios
  */
 
 /* fonts */
@@ -127,6 +126,11 @@ footer {
     text-align: center;
     font-size: 18px;
     width: 170px;
+}
+
+.info-cards {
+    display: flex;
+    align-items: center;
 }
 
 /* section 3 */
